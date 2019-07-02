@@ -62,10 +62,8 @@ const Index = () => (
     <Layout />
     <Parallax pages={5}>
       <Hero offset={0}>
-        <BigTitle>
-          Hello, <br /> I'm John Doe.
-        </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <BigTitle>Avish Sharma</BigTitle>
+        <Subtitle>Singer | Song Writer | Performing Artist | YouTube Sensation</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
@@ -103,7 +101,7 @@ const Index = () => (
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Avish Sharma" />
           <AboutSub>
             The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
             Emoji into my speech to better express myself. Winky face.
@@ -127,9 +125,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          Made by Hitarth Sharma. Based on the Gatsby Starter Portfolio Cara by <a href="https://www.lekoarts.de">LekoArts</a>.
         </Footer>
       </Contact>
     </Parallax>
